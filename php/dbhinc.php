@@ -15,7 +15,7 @@
     if($conn->query($sql)===TRUE){
         echo "Registration Successfully...";
         sleep(5);
-        header("Location:portfolioindex.html");
+        header("Location:index.html");
         die();
     }
     else{
